@@ -1,0 +1,92 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://studiecollectie.momu.be/iiif/2025/manifest",
+	"@type": "sc:Manifest",
+	"label": "japon (onderdeel)",
+	"description": "lijf van een japon in zwart satijn, mouwloos model met diepe V-hals en schouderbanden, in de rug lopen de patroondelen ver uit naar een lage inzet van een afwezige rok. ritssluiting midden rug",
+	"thumbnail": {
+		"@id": "http://studiecollectie.momu.be/iiif-img/2027/full/200,200/0/default.jpg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"@id": "http://studiecollectie.momu.be/iiif-img/2027",
+			"profile": "http://iiif.io/api/image/2/level2.json"
+		}
+	},
+	"license": "all rights reserved",
+	"attribution": "Provided by MoMu Antwerp",
+	"metadata": [{
+		"label": "Title",
+		"value": "japon (onderdeel)"
+	},
+	{
+		"label": "Description",
+		"value": ["lijf van een japon in zwart satijn, mouwloos model met diepe V-hals en schouderbanden, in de rug lopen de patroondelen ver uit naar een lage inzet van een afwezige rok. ritssluiting midden rug",
+		"body of a dress in black satin, sleeveless model with deep V-neck and shoulder straps, back running the pattern pieces far out at low deployment of an absent skirt. zip in the middle of the back."]
+	},
+	{
+		"label": "Source",
+		"value": "openfashion.momu.be/id/creation/OBJ50098"
+	},
+	{
+		"label": "Identifier",
+		"value": ["ST570",
+		"Rack:5B"]
+	},
+	{
+		"label": "Type",
+		"value": "Kostuum-Japon"
+	},
+	{
+		"label": "Date",
+		"value": "1950-1960"
+	},
+	{
+		"label": "Subject",
+		"value": "zijde"
+	},
+	{
+		"label": "Rights",
+		"value": "All rights reserved"
+	}],
+	"sequences": [{
+		"@id": "http://studiecollectie.momu.be/iiif/2025/sequence/normal",
+		"@type": "sc:Sequence",
+		"label": "Current Page Order",
+		"viewingDirection": "left-to-right",
+		"viewingHint": "non-paged",
+		"canvases": [{
+			"@id": "http://studiecollectie.momu.be/iiif/2025/canvas/p1",
+			"@type": "sc:Canvas",
+			"label": "[1]",
+			"thumbnail": {
+				"@id": "http://studiecollectie.momu.be/iiif-img/2027/full/200,200/0/default.jpg",
+				"service": {
+					"@context": "http://iiif.io/api/image/2/context.json",
+					"@id": "http://studiecollectie.momu.be/iiif-img/2027",
+					"profile": "http://iiif.io/api/image/2/level2.json"
+				}
+			},
+			"width": 800,
+			"height": 1200,
+			"images": [{
+				"@id": "http://studiecollectie.momu.be/iiif/2025/annotation/p0001-image",
+				"@type": "oa:Annotation",
+				"motivation": "sc:painting",
+				"resource": {
+					"@id": "http://studiecollectie.momu.be/files/original/c955690fb9b31582eebd8125b547c6e943e49f4c.jpg",
+					"@type": "dctypes:Image",
+					"format": "image/jpeg",
+					"width": 800,
+					"height": 1200,
+					"service": {
+						"@context": "http://iiif.io/api/image/2/context.json",
+						"@id": "http://studiecollectie.momu.be/iiif-img/2027",
+						"profile": "http://iiif.io/api/image/2/level2.json"
+					}
+				},
+				"on": "http://studiecollectie.momu.be/iiif/2025/canvas/p1"
+			}
+  ]
+		}]
+	}]
+}
